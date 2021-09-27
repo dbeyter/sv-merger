@@ -3,8 +3,15 @@
 # Sample execution
 python main.py ./test_data/toy_SV_data_tomerge_simplified_ids.csv DEL 50
 
-The input CSV file contains the structural variants (SV) to be merged.
-The columns are as follows: 
+# Arguments
+
+arg 1: Tab separated file containing the structural variants (SV) to be merged.
+
+arg 2: SV type, e.g. DEL, INS.
+
+arg 3: Minimum percentage of overlap to draw an edge between two SVs in clique formation during SV merging.
+
+# Columns for the input file containing the SVs
 
 1: chromosome
 
@@ -22,7 +29,7 @@ The columns are as follows:
 
 8*: Pre-clustering id. (unique identifier for a preclustering of SVs)
 
-* A pre-clustering is needed to reduce time complexity in merging of SVs. Two SVs that are guaranteed not to be merged together should belong to different "pre-clusters". 
+*A pre-clustering is needed to reduce time complexity in merging of SVs. Two SVs that are guaranteed not to be merged together should belong to different "pre-clusters". 
 
 # Output 
 
