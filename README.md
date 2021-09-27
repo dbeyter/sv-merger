@@ -27,6 +27,7 @@ The columns are as follows:
 
 The columns are as follows:
 1: SV ids
+
 2: The final clique id for given SV id in the 1st column.
 
 For each clique id, a representative SV can be chosen if there are more than 1 SV per clique id. One approach would be to pick an SV with the most frequent begin, end, or begin-and-end coordinate among the SVs within the same clique id.
