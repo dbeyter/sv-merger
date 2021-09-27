@@ -5,6 +5,7 @@ python main.py ./test_data/toy_SV_data_tomerge_simplified_ids.csv DEL 50
 
 The input CSV file contains the structural variants (SV) to be merged.
 The columns are as follows: 
+
 1: chromosome
 
 2: begin site
@@ -26,6 +27,7 @@ The columns are as follows:
 # Output 
 
 The columns are as follows:
+
 1: SV ids
 
 2: The final clique id for given SV id in the 1st column.
