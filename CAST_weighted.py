@@ -315,15 +315,3 @@ def element_changed_in_cluster_score_updates(addition, vertex, vertex_pn, clique
 	return(new_vertex_pn_score, new_vertex_cluster_score, new_vertex_to_pn_edgenum, new_vertex_to_uniqpn_num)
 
 
-# def create_test_data():
-# 	distance_matrix = []
-# 	distance_matrix.append([ 0, 5, 5, 5, 15, 20, 22 ])
-# 	distance_matrix.append([ 5, 0, 5, 5, 15 ,17, 20 ])
-# 	distance_matrix.append([ 5, 5, 0, 5, 4, 12, 12 ])
-# 	distance_matrix.append([ 5, 5, 5, 0, 9, 12, 12 ])
-# 	distance_matrix.append([ 15, 15, 4, 9, 0, 3, 3 ])
-# 	distance_matrix.append([ 20, 17, 12, 12, 3, 0, 2])
-# 	distance_matrix.append([ 22, 20, 12, 12, 3, 2, 0])
-# 	return(distance_matrix)
-
-

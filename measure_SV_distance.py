@@ -58,11 +58,8 @@ def get_sv_sample(SVs_to_cluster):
 
 
 def find_interval_overlap(x1, x2, y1, y2):
-	# print "x1-x2: " + str(x1) + "-" + str(x2)
-	# print "y1-y2: " + str(y1) + "-" + str(y2)
 
 	overlaps = ((x1 <= y2) and (y1 <= x2))
-	#print "overlaps: " + str(overlaps)
 	x_overlap_rate = 0
 	y_overlap_rate = 0
 
@@ -74,8 +71,6 @@ def find_interval_overlap(x1, x2, y1, y2):
 		overlap_amount = end_overlap - begin_overlap + 1
 		x_overlap_rate = float(overlap_amount)/x_len
 		y_overlap_rate = float(overlap_amount)/y_len
-		# print x_overlap_rate
-		# print y_overlap_rate
 
 	return( (overlaps, x_overlap_rate, y_overlap_rate) )
 
