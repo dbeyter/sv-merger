@@ -22,7 +22,7 @@ The columns are as follows:
 
 8*: Pre-clustering id. (unique identifier for a preclustering of SVs)
 
-* A pre-clustering is needed to reduce time complexity in merging the SVs. Two SVs that has no chance to exist in a set of merged SVs should belong to different "pre-clusters". 
+* A pre-clustering is needed to reduce time complexity in merging of SVs. Two SVs that are guaranteed not to be merged together should belong to different "pre-clusters". 
 
 # Output 
 
