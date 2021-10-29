@@ -13,21 +13,21 @@ arg 3: Minimum percentage of overlap to draw an edge between two SVs in clique f
 
 # Columns for the input file containing the SVs
 
-1: chromosome
+0: chromosome
 
-2: begin site
+1: begin site
 
-3: end site (use begin site + insertion length for insertions)
+2: end site (use begin site + insertion length for insertions)
 
-4: SV id (unique identifier for the SVs)
+3: SV id (unique identifier for the SVs)
 
-5: Sample id (unique identifier for the sample the given SV is found in)
+4: Sample id (unique identifier for the sample the given SV is found in)
 
-6: Method/algorithm finding the SV
+5: Method/algorithm finding the SV
 
-7: SV type (e.g. DEL, INS)
+6: SV type (e.g. DEL, INS)
 
-8*: Pre-clustering id. (unique identifier for a preclustering of SVs)
+7*: Pre-clustering id. (unique identifier for a preclustering of SVs)
 
 *A pre-clustering is needed to reduce time complexity in merging of SVs. Two SVs that are guaranteed not to be merged together should belong to different "pre-clusters". 
 
