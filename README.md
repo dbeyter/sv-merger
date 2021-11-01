@@ -8,6 +8,8 @@ Additional python packages: intervaltree
 Please install via: `pip install intervaltree`
 
 # Sample execution
+arg 0: Name of the step to execute.
+
 arg 1: Tab separated file containing the structural variants (SV) to be merged.
 
 arg 2: File containing tandem repeat coordinates given under folder trf_coords.
@@ -90,9 +92,9 @@ python main.py FIND_CLIQUES ./test_data/toy_SV_data.csv.precluster ./test_data/t
 
 The columns are as follows:
 
-1: SV ids
+0: SV ids
 
-2: The final clique id for given SV id in the 1st column.
+1: The final clique id for given SV id in the 1st column.
 
 For each clique id, a representative SV can be chosen if there are more than 1 SV per clique id. One approach would be to pick an SV with the most frequent begin, end, or begin-and-end coordinate among the SVs within the same clique id.
 
