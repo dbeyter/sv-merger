@@ -1,6 +1,6 @@
 
 
-# On the TRF conbined csv.
+# On the TRF combined csv.
 CHR_COL = 0
 CLUSTER_BEGIN_COL = 1
 CLUSTER_END_COL = 2
@@ -8,7 +8,7 @@ SV_IDX_COL = 3
 SAMPLE_COL = 4
 METHOD_COL = 5
 EVENT_COL = 6
-CLUSTERID_COL = 7
+CLUSTERID_COL = 11
 
 
 def read_pieced_data(part_cluster_fn):
