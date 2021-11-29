@@ -76,7 +76,7 @@ python main.py FIND_CLIQUES ./test_data/toy_SV_data.csv.precluster ./test_data/t
 
 1: begin site
 
-2: end site (use begin site + insertion length for insertions)
+2: end site (use begin site + SV length for both insertions and deletions)
 
 3: SV id (unique identifier for the SVs)
 
